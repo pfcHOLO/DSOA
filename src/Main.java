@@ -1,9 +1,9 @@
 
 public class Main {
     public static void main(String[] args) {
-     
-        Clothing clothing = new Clothing("T-shirt", "red");
-        System.out.println(clothing);
+
+        RandomRundown randomNumber = new RandomRundown();
+        randomNumber.rand();
     }
-    
+
 }
